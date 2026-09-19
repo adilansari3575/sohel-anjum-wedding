@@ -75,7 +75,7 @@ const EventDetails = () => {
     },
     {
       title: " Reception  {Dawat-E-Walima}",
-      time:"Oct 30, 2026, 7:00 PM",
+      time:"Oct 30, 2026, 6:00 PM",
       location: "at Home ",
     },
   ];
@@ -322,11 +322,11 @@ const EventDetails = () => {
         </div>
 
         <h3 className="text-2xl font-heading text-[#4F5D42] mb-2">
-          At Home
+          At Marriage Hall
         </h3>
 
         <p className="text-sm font-body text-[#687750]/75 mb-10">
-          Bissau, Jhunjhunu - Rajasthan
+          Samudayak Bhawan, Jhunjhunu - Rajasthan
         </p>
 
         <div className="w-full max-w-[280px] mb-10 opacity-40">
@@ -346,7 +346,7 @@ const EventDetails = () => {
         </div>
 
         <a
-          href="https://www.google.com/maps/dir//28.141514,75.3949374/@28.141642,75.3950211,74m/data=!3m1!1e3!4m2!4m1!3e0?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D"
+          href="https://www.google.com/maps/place/Samudayik+Vikas+Bhawan/@28.1163978,75.3712129,1325m/data=!3m1!1e3!4m10!1m2!2m1!1s6MP4%2B65M+Samudayak+Bhawan+jhunjhunu!3m6!1s0x391338f9f547154d:0xd6ad6643aeaeb1cb!8m2!3d28.1200836!4d75.3771766!15sCiI2NCs2NSBNIFNhbXVkYXlpayBCaGF3YW4gamh1bmpodW51WiQiIjY0IDY1IG0gc2FtdWRheWlrIGJoYXdhbiBqaHVuamh1bnWSAQxiYW5xdWV0X2hhbGyaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMjVGTVZFemFIWlVhbEpZVXpKMGIxTnJNWEZVYmxKNVlUTkNlRmxZWXhBQuABAPoBBAgAEDQ!16s%2Fg%2F11c5_ww45c?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           rel="noreferrer"
           className="px-8 py-3 bg-[#55643E] text-[#F7F4EC] font-body text-sm font-semibold rounded-xl hover:scale-105 transition-transform duration-300 shadow-[0_5px_15px_rgba(63,74,50,0.18)]"
