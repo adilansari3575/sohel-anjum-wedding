@@ -76,7 +76,7 @@ const EventDetails = () => {
     {
       title: " Reception  {Dawat-E-Walima}",
       time:"Oct 30, 2026, 6:00 PM",
-      location: "at Home ",
+      location: "at Marriage Hall ",
     },
   ];
 
