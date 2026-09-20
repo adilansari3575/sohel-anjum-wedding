@@ -20,7 +20,8 @@ const EventDetails = () => {
   }, [images.length]);
 
   // Countdown Timer Logic
-  const targetDate = new Date("2026-11-25T00:00:00").getTime();
+  // Wedding ceremony: 29 October 2026 at 11:00 AM (IST)
+  const targetDate = new Date("2026-10-29T11:00:00+05:30").getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -30,7 +31,7 @@ const EventDetails = () => {
   });
 
   useEffect(() => {
-    const interval = setInterval(() => {
+    const updateCountdown = () => {
       const now = new Date().getTime();
       const distance = targetDate - now;
 
@@ -45,8 +46,18 @@ const EventDetails = () => {
           ),
           seconds: Math.floor((distance % (1000 * 60)) / 1000),
         });
+      } else {
+        setTimeLeft({
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0,
+        });
       }
-    }, 1000);
+    };
+
+    updateCountdown();
+    const interval = setInterval(updateCountdown, 1000);
 
     return () => clearInterval(interval);
   }, [targetDate]);
